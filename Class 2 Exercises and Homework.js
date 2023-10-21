@@ -52,6 +52,7 @@ console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
 
 // 4. After the array is created, 'O' claims the top right square.
 // Update that value.
+  tBoard[0][2] = "O";
 
 
 // 5. Log the grid to the console.
