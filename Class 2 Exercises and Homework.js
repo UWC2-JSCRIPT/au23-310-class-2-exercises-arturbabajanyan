@@ -52,13 +52,13 @@ console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
 
 // 4. After the array is created, 'O' claims the top right square.
 // Update that value.
-  tBoard[0][2] = "O";
+tBoard[0][2] = "O";
 
 
 // 5. Log the grid to the console.
-  console.log(tBoard[0][0], tBoard[0][1], tBoard[0][2]);
-  console.log(tBoard[1][0], tBoard[1][1], tBoard[1][2]);
-  console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
+console.log(tBoard[0][0], tBoard[0][1], tBoard[0][2]);
+console.log(tBoard[1][0], tBoard[1][1], tBoard[1][2]);
+console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
 
 
 // 6. You are given an email as string myEmail, make sure it is in correct email format.
@@ -67,6 +67,8 @@ console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
 // Hints:
 // - Use rubular to check a few emails: https://rubular.com/
 // - Use regexp test method https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
+const regex = /^([a-z\d\.-_]+)@([a-z\d-]+)\.([a-z]{2,8})(\.[a-z]+)?$/;
+console.log(regex.test("foo@bar.baz"));
 
 
 // 7. You are given an assignmentDate as a string in the format "month/day/year"
