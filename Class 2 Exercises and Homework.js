@@ -106,6 +106,7 @@ const months = [
   'November',
   'December'
 ];
+console.log(`Due date is: ${months[dueDate.getMonth()]} ${dueDate.getDate()}, ${dueDate.getFullYear()}.`)
 
 
 // 10. log this value using console.log
