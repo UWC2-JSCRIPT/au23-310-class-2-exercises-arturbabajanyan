@@ -14,7 +14,7 @@ const myObject1 = {
     "favorite food": "any restaurant meal"
   }
 };
-console.log(myObject1);
+//console.log(myObject1);
 
 ///// OR /////
 
@@ -33,9 +33,11 @@ bestFriend = {
 
 myObject2.bestFriend = bestFriend;
 
-console.log(myObject2);
+//console.log(myObject2);
 
 // 2. console.log best friend's firstName and your favorite food
+console.log(`Best friend's first name is ${myObject1.bestFriend.firstName} and my favorite food is ${myObject1["favorite food"]}.`);
+console.log(`Best friend's first name is ${myObject2.bestFriend.firstName} and my favorite food is ${myObject2["favorite food"]}.`);
 
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
