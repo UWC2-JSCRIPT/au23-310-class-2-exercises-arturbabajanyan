@@ -39,10 +39,15 @@ myObject2.bestFriend = bestFriend;
 console.log(`Best friend's first name is ${myObject1.bestFriend.firstName} and my favorite food is ${myObject1["favorite food"]}.`);
 console.log(`Best friend's first name is ${myObject2.bestFriend.firstName} and my favorite food is ${myObject2["favorite food"]}.`);
 
+
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
 // -XO
 // X-X
+const tBoard = [['-',"O","-"],["-","X","O"],["X","-","X"]];
+console.log(tBoard[0][0], tBoard[0][1], tBoard[0][2]);
+console.log(tBoard[1][0], tBoard[1][1], tBoard[1][2]);
+console.log(tBoard[2][0], tBoard[2][1], tBoard[2][2]);
 
 
 // 4. After the array is created, 'O' claims the top right square.
