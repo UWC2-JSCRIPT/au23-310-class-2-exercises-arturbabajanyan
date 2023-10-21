@@ -75,6 +75,8 @@ console.log(regex.test("foo@bar.baz"));
 // i.e. '1/21/2019' - but this could be any date.
 // Convert this string to a Date
 const assignmentDate = '1/21/2019';
+const givenDate = new Date(assignmentDate);
+console.log(givenDate);
 
 
 // 8. Create a new Date instance to represent the dueDate.  
