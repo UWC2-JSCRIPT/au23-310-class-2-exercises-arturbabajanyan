@@ -81,6 +81,12 @@ console.log(givenDate);
 
 // 8. Create a new Date instance to represent the dueDate.  
 // This will be exactly 7 days after the assignment date.
+const givenDateInMilli = givenDate.getTime();
+const numberOfDays = 7;
+const numberOfDaysInMilli = numberOfDays*24*60*60*1000;
+const dueDateInMilli = givenDateInMilli + numberOfDaysInMilli;
+const dueDate = new Date(dueDateInMilli);
+console.log(dueDate);
 
 
 // 9. Use dueDate values to create an HTML time tag in format
