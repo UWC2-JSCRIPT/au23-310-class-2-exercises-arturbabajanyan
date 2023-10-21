@@ -4,10 +4,38 @@
 // - lastName
 // - 'favorite food'
 // - bestFriend (object with the same 3 properties as above)
+const myObject1 = {
+  firstName: "Artur",
+  lastName: "Babajanyan",
+  "favorite food": "any home made meal",
+  bestFriend: {
+    firstName: "Vahagn",
+    lastName: "Arus",
+    "favorite food": "any restaurant meal"
+  }
+};
+console.log(myObject1);
 
+///// OR /////
+
+const myObject2 = {
+  firstName: "Artur",
+  lastName: "Babajanyan",
+  "favorite food": "any home made meal"
+};
+
+
+bestFriend = {
+  firstName: "Vahagn",
+  lastName: "Arus",
+  "favorite food": "any restaurant meal"
+};
+
+myObject2.bestFriend = bestFriend;
+
+console.log(myObject2);
 
 // 2. console.log best friend's firstName and your favorite food
-
 
 // 3. Create an array to represent this tic-tac-toe board
 // -O-
